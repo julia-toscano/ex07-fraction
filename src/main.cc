@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Fractions.h"
+#include "fraction.h"
 int main() {
     Fraction f(2,4);
 f.output();

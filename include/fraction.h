@@ -6,6 +6,8 @@
 #define HASH_TABLE_FRACTIONS_H
 
 #include <cstdint>
+
+namespace edu { namespace vcccd { namespace vc { namespace csv13 {
 class Fraction {
 public:
     Fraction(int32_t numerator, int32_t denominator) { //implementing the constructor
@@ -26,4 +28,5 @@ private:
      int32_t numerator;
      int32_t denominator;
 };
+}}}}
 #endif //FRACTION_FRACTIONS_if

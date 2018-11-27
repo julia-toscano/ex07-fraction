@@ -50,6 +50,7 @@ using edu::vcccd::vc::csv13::Fraction;
 using std::string;
 
 using namespace ::testing_internal;
+typedef uint64_t uint;
 
 class FractionTest : public ::testing::Test {
 protected:
